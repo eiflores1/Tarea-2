@@ -5,10 +5,16 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
-    background-image: url('https://www.example.com/background.jpg'); /* Cambia esta URL a la imagen de fondo que prefieras */
-    background-size: cover;
-    background-position: center;
+    background-color: #87ceeb; /* Fondo azul */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .chat-container {
@@ -18,6 +24,7 @@ body {
     width: 300px;
     max-width: 100%;
     padding: 20px;
+    margin: 0 auto;
 }
 
 #chatbox {
