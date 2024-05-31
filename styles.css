@@ -5,11 +5,14 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
+    background-image: url('https://www.example.com/background.jpg'); /* Cambia esta URL a la imagen de fondo que prefieras */
+    background-size: cover;
+    background-position: center;
 }
 
 .chat-container {
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -23,6 +26,7 @@ body {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: #fff;
 }
 
 #userInput {
