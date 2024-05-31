@@ -36,3 +36,4 @@ function getBotResponse(input) {
         return "Lo siento, no entiendo tu mensaje.";
     }
 }
+
